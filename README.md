@@ -15,4 +15,24 @@ Es un buscador  cuya consultas a realizar , se muestra los datos de la base de d
 - :ballot_box_with_check: HTML y CSS
 - :ballot_box_with_check: javaScript
 
+** _SCRIPT BASE DE DATOS_ **
+
+create database twitter;
+
+use twitter;
+
+create table usuario(
+
+idusuario INT NOT NULL auto_increment,
+
+nombres VARCHAR(48) NOT NULL,
+
+apellidos VARCHAR(48) NOT NULL,
+
+imagenusuario varchar(64) NOT NULL
+
+PRIMARY KEY(idusuario)
+
+);
+
 :blush: Compartiendo a la comunidad .
